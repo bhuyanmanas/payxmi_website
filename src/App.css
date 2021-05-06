@@ -1,0 +1,103 @@
+h1 ,h2 ,h3 ,h5 ,h6,span {
+  /* font-family: 'Roboto Slab', serif; */
+  font-weight: bold;
+}
+
+p,a{
+  /* font-family: 'Roboto Slab', serif; */
+  font-weight: 500;
+  font-size: 1rem;
+  
+
+}
+
+.cover{
+  width: 100%;
+}
+
+.img1{
+    width: 21%;
+    position: relative;
+    top: 106px;
+}
+.img2{
+  width: 100%;
+}
+.img3{
+  width: 21%;
+  position: relative;
+  left: 68%;
+  bottom: 38px;
+}
+.img4{
+  width: 21%;
+  position: relative;
+  left: 82%;
+  bottom: 208px;
+}
+
+.how-text button{
+  margin-top: 16%;
+    border-radius: 50px;
+    border: solid 1px #daa21b;
+    color: #daa21b  ;
+    background: #38454c;
+}
+
+
+/********************** responsive ********/
+
+@media (min-width:1441px){
+p{
+  font-size: 28px;
+}
+ h4 {
+  font-size: 45px;
+}
+h3{
+  font-size: 34px;
+}
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+  .about-text1{
+      top: 2%;
+  }
+  .about-text1 p{
+    padding-left: 14%;
+  }
+
+  .how-text {
+    padding-top: 9%;
+    font-size: 14px;
+  }
+  .how-text h3 {
+    color: white;
+    font-size: 24px;
+}
+  
+
+}
+
+@media (min-width: 576px) and (max-width: 768px){
+
+  .about-text1 p{
+    font-size: 11px;
+  }
+  .about-text1 h2{
+    font-size: 24px;
+  }
+  .how-text {
+    padding-top: 13%;
+  }
+}
+
+@media (min-width: 767px) and (max-width: 991px){
+
+  .about-text1 p{
+    font-size: 11px;
+  }
+  .about-text1 h2{
+    font-size: 24px;
+  }
+}

@@ -1,0 +1,306 @@
+.HomeImage{
+    position: absolute;
+    right: 31%;
+    top: 44%;
+    width: 40%;
+}
+
+.HomeImage img{
+    width: 60%;
+}
+
+.Home1-text{
+    padding-top: 28%;
+}
+
+.Home1-text p{
+    padding-top: 15%;
+}
+
+.Home1-text button{
+    border-color: #00a3e2;
+    color: #00a3e2;
+    border-radius: 50px;
+    margin-top: 11%;
+}
+
+.HomePhone-sec{
+    background-image: url("../../images/blue-back.png");
+    background-position: bottom;
+    background-position-y: 357px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.alice-carousel {
+    position: relative;
+    /* width: 65%; */
+    margin: auto;
+    direction: revert;
+    padding-left: 7%;
+    padding-right: 8%;
+}
+
+
+.HomePhone-sec img{
+    width: 100%;
+    position: relative;
+}
+
+
+.Home-phones img{
+    width: 100%;
+    position: relative;
+    left: 3%;
+    top: 13px;
+    padding-bottom: 16px;
+}
+
+.Home-phones button{
+    border-radius: 50px;
+    color: #1f93fa;
+    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    position: relative;
+    /* top: -13px; */
+}
+
+.parCar-1{
+  
+    position: relative;
+    top: -42px;
+    width: 61%;
+    left: 23%;
+    height:57px;
+}
+
+
+.parCar-1 p{
+    font-size: 17px;
+    font-weight: 500;
+    text-align: center;
+    color: white;
+}
+
+.parCar-2{
+    text-align: initial;
+    width: 63%;
+    position: relative;
+    left: 29%;
+    color:white;
+    top: -42px;
+    height: 50px;
+    padding-top: 10px;
+}
+
+.parCar-2 p{
+    text-align: initial;
+    color:white;
+}
+
+.div-par{
+    height:125px;
+}
+.rec-carousel-item {
+    width: 29%;
+}
+.cetQhm {
+    display: none;
+}
+
+/********************** Responsive ******************/
+
+
+
+
+@media (min-width:1441px){
+
+    .alice-carousel__dots {
+        opacity: 0;
+    }
+
+    .HomePhone-sec{
+        background-size: contain;
+        background-position-y: bottom;
+    }
+    
+    .parCar-1 {
+        top: -67px;
+        padding-top: 2px;
+        padding-bottom: 27px;
+    
+    }
+    
+    .parCar-1 p{
+        font-size: 27px;
+    }
+    
+    .parCar-2 {
+        top: -40px;
+        padding-top: 10px;
+    }
+
+    .parCar-2 p{
+        font-size: 18px;
+    }
+
+    .Home-phones button {
+        /* top: -58px; */
+        margin-top: 4%;
+        font-size: 18px;
+}
+
+}
+
+
+@media (min-width:992px) and (max-width:1440){
+
+    .alice-carousel__dots {
+        opacity: 0;
+    }
+    .alice-carousel__stage-item {
+        max-width: 373px;
+        left: 10%;
+    }
+    
+}
+
+
+@media (min-width:757px){
+
+    .alice-carousel__dots {
+        opacity: 0;
+    }
+
+    
+    
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+
+.alice-carousel__dots {
+        opacity: 0;
+    }
+
+.Home1-text h1{
+    font-size: 30px;
+}
+
+.Home1-text p {
+    font-size: 13px;
+}
+.parCar-1 {
+    top: -20px;
+}
+
+.parCar-1 p {
+    font-size: 15px;
+}
+
+.parCar-2 {
+    top: -23px;
+    font-size: 12px;
+}
+
+.parCar-2 p {
+    font-size: 12px;
+}
+
+.HomePhone-sec {
+    background-size: cover;
+    background-position-y: 311px;
+
+   }
+
+   .div-par {
+    height: 114px;
+}
+
+
+}
+
+
+@media (min-width: 576px) and (max-width: 767px){
+
+    .Home1-text{
+        padding-top: 12%;
+    }
+    .Home1-text h1{
+        font-size: 39px;
+    }
+    .Home1-text p {
+        font-size: 14px;
+        padding-top: 7%; 
+    }
+
+    .div-par {
+        height: 168px;
+    }
+
+   .parCar-1 p {
+    font-size: 15px;
+   }
+
+   .parCar-2 p {
+    font-size: 15px;
+}
+
+   .HomePhone-sec {
+    background-size: cover;
+    background-position-y: 244px;
+
+   }
+}
+@media (min-width: 320px) and (max-width: 575px){
+
+    .div-par {
+        height: 150px;
+    }
+    .Home1-text{
+        padding-top: 12%;
+    }
+    .Home1-text h1{
+        font-size: 28px;
+    }
+    .Home1-text p {
+        font-size: 12px;
+        padding-top: 7%; 
+    }
+
+    .rec-carousel-item {
+        width: 35%;
+    }
+    .SpQeE {
+        position: relative;
+        left: 2%;
+    }
+    .HomePhone-sec {
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position-y: 420px;
+
+    }
+
+    .Home-phones{
+        padding-top: 73px;
+    }
+    .parCar-1 p{
+        font-size: 16px;
+        font-weight: 500;
+    }
+
+ 
+
+    .parCar-2 {
+        top: -55px;
+        font-size: 14px;
+    }
+
+    .parCar-2 p {
+        font-size: 14px;
+    }
+
+
+}

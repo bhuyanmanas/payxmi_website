@@ -1,0 +1,75 @@
+.blue-borders{
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    border:solid 1px rgb(0 163 226);
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 26px;
+}
+
+.signup-text h3 {
+    color: rgb(0 163 226);
+    font-weight: 500;
+    text-align: center;
+    padding-top: 46px;
+}
+
+.signup-text p {
+    color: #707070;
+    padding-bottom: 27px;
+    text-align: center;
+}
+
+
+.signup-text img {
+        width: 50%;
+        padding-bottom: 7px;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.signup-form input {
+    background: white;
+    padding-top: 10px;
+    color: black;
+    padding-bottom: 7px;
+    border-radius: 6px;
+}
+
+.ant-input-group > .ant-input:last-child, .ant-input-group-addon:last-child {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+}
+
+.ant-input-group-addon:first-child {
+   left:-11px;
+}
+
+.ant-input-group-addon {
+    background-color: white;
+    border: 1px solid white;
+}
+
+.signup-form button{
+    border-radius: 6px;
+}
+
+@media (min-width: 320px) and (max-width: 576px){
+    .ReactFlagsSelect-module_flagsSelectInline__cUnnz {
+        display: inline-block;
+        width: 100%;
+    }
+    
+    .ReactFlagsSelect-module_selectOptions__3LNBJ {
+        width: 100%;
+    }
+
+    .signup-form input {
+        width: 100%;
+        margin-left: 0;
+    }
+    .ant-input-group-addon:first-child {
+        display: contents;
+    }
+}
